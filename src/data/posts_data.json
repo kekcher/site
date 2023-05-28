@@ -1,0 +1,82 @@
+[
+    {
+        "postId" : 1,
+        "type": "post",
+        "authorId": 10,
+        "stats":{
+            "likes": [1,2,3,5,7],
+            "comments": [1,2,3,4,5],
+            "favorites": [1,2,4,6],
+            "reposts": [1,4,5,6,3],
+            "views":[1,2,3,4,5,6,7,8,9,10]
+        },
+        "imgs": ["https://kartinkin.net/uploads/posts/2022-02/1644908712_67-kartinkin-net-p-krutie-kartinki-dlya-patsanov-70.jpg"],
+        "signImgs": ["Да тупа я разнёс"],
+        "geoposition": "Пермь",
+        "time": ""
+    },
+    {
+        "postId" : 2,
+        "type": "case",
+        "authorId": 4,
+        "stats":{
+            "likes": [8,9],
+            "comments": [6,7],
+            "favorites": [],
+            "reposts": [],
+            "views":[6,7,8,9]
+        },
+        "imgs": ["https://foni.club/uploads/posts/2023-01/1673418886_foni-club-p-krutie-oboi-kartinki-dlya-patsanov-58.jpg"],
+        "signImgs": ["Лоу скил"],
+        "geoposition": "Маями",
+        "time": ""
+    },
+    {
+        "postId" : 3,
+        "type": "post",
+        "authorId": 7,
+        "stats":{
+            "likes": [1,2,3],
+            "comments": [],
+            "favorites": [],
+            "reposts": [],
+            "views":[1,2,3]
+        },
+        "imgs": ["https://i.ytimg.com/vi/E1jFbS43hTc/maxresdefault.jpg","https://get.pxhere.com/photo/metal-weapon-screw-nuts-rusty-iron-carving-connection-firearm-gun-accessory-882017.jpg"],
+        "signImgs": ["Крутая идея для переработки металла","С этим бывают проблемы"],
+        "geoposition": "Москва",
+        "time": ""
+    },
+    {
+        "postId" : 4,
+        "type": "case",
+        "authorId": 3,
+        "stats":{
+            "likes": [2,5,6],
+            "comments": [],
+            "favorites": [2,5],
+            "reposts": [2],
+            "views":[2,5,6]
+        },
+        "imgs": ["https://wums.ru/wp-content/uploads/2023/03/sa2-3.jpg"],
+        "signImgs": ["История Пельменей"],
+        "geoposition": "Нытва",
+        "time": ""
+    },
+    {
+        "postId" : 5,
+        "type": "post",
+        "authorId": 6,
+        "stats":{
+            "likes": [],
+            "comments": [],
+            "favorites": [],
+            "reposts": [],
+            "views":[]
+        },
+        "imgs": ["https://heaclub.ru/tim/65a6f18fddd23c9137e0e675b30867e6/neobichnie-kartinki-na-avu-dlya-parnei.jpg"],
+        "signImgs": ["Котэээ"],
+        "geoposition": "Крым",
+        "time": ""
+    }
+]

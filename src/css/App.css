@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('../font/Verdana.ttf');
+}
+
+:root {
+    --color_gray: #bababa;
+    --max-width: 100%;
+    --fontVer: 'Verdana';
+    --color_active: #7e52ee;
+    --border1: 1px solid;
+    --border2: 2px solid;
+    --tf5050: translate(-50%, -50%);
+    --color_dark_gray: #726f6f;
+}
+
+/*Для всей соц-сети*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--fontVer);
+}
+
+.root{
+    overflow-x: none;
+}

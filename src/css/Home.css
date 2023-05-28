@@ -1,0 +1,26 @@
+.mainBackground,
+.posts_container {
+  background-color: #f5f5f5;
+  padding-bottom: 2px;
+}
+
+.posts_container {
+  animation: main 0.4s forwards;
+  width: var(--max-width);
+  height: fit-content;
+  margin-top: 10px;
+}
+
+.posts_container:last-child {
+  padding-bottom: 40px;
+}
+
+@keyframes main {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

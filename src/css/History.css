@@ -1,0 +1,57 @@
+/*flex+centr+centr*/
+.not_view,
+.view,
+.user_history_avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*border rad 50%*/
+.not_view,
+.user_history_avatar,
+.user_history_avatar {
+    border-radius: 50%;
+}
+
+.user_history_box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.view,
+.not_view {
+    width: 74px;
+    height: 74px;
+}
+
+.not_view {
+    color: var(--color_active);
+    border: var(--border2) var(--color_active);
+}
+
+.not_view~p {
+    color: var(--color_active) !important;
+}
+
+.user_history_avatar {
+    width: 64px;
+    height: 64px;
+}
+
+.avatar_picture {
+    width: var(--max-width);
+    height: 100%;
+}
+
+.user_history_nickname {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: black;
+}

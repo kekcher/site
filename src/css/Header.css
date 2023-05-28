@@ -1,0 +1,147 @@
+/*Flex+column*/
+.head_container,
+.filter_post_box,
+.filter_post_item,
+.user_history_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.head_container {
+    animation: main 0.4s forwards;
+    width: var(--max-width);
+    max-height: 240px;
+    background-color: white;
+}
+
+.logo_box {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.logo_item {
+    display: flex;
+    flex-direction: row;
+    margin: 51px 0 0 27px;
+}
+
+.logo_item i {
+    position: absolute;
+    margin: 10px 0 0 110px;
+    font-size: 15px;
+}
+
+.filter_post_box {
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 85px 0 0 27px;
+    width: 150px;
+    height: 0;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 12;
+    overflow: hidden;
+}
+
+.filter_post_box_open {
+    border: var(--border1) var(--color_gray);
+    animation: openFilter 0.5s forwards;
+}
+
+.filter_post_item {
+    justify-content: center;
+    align-items: center;
+}
+
+.filter_post_item p {
+    margin: 15px 0 10px 0;
+}
+
+.filter_line {
+    height: 0px;
+    width: 150px;
+    border: var(--border1) var(--color_gray);
+}
+
+.search {
+    margin: 54px 25px 0 0;
+    width: 26px;
+    height: 26px;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+}
+
+.history_container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-height: 109px;
+}
+
+.history_container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.user_history_box {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user_history_add {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: var(--color_active);
+}
+
+.line_plus_horizontal{
+    width: 40px;
+    border: 1px solid #FFFFFF;
+    z-index: 0;
+}
+
+.line_plus_vertical{
+    position: absolute;
+    width: 40px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-90deg);
+    z-index: 10;
+}
+
+
+.line {
+    width: var(--max-width);
+    height: 0;
+    border: var(--border1) var(--color_gray);
+    transform: rotate(0.15deg);
+}
+
+@keyframes main {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes openFilter {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 140px;
+    }
+}

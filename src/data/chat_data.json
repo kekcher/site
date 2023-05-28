@@ -1,0 +1,98 @@
+[
+    {
+        "chatId": 1,
+        "companionId": 2,
+        "chatName": "Крутыши",
+        "fullStatus": "read",
+        "messages": [
+            {
+                "who": "iam",
+                "message": "Вай вай юпи ёу юпи эй",
+                "status": "read",
+                "time": "12:30"
+            }
+        ]
+    },
+    {
+        "chatId": 2,
+        "companionId": 3,
+        "chatName": "Крутыши",
+        "fullStatus": "unread",
+        "messages": [
+            {
+                "who": "user",
+                "message": "Может пельмешей заточим?",
+                "status": "unread",
+                "time": "14:30"
+            }
+        ]
+    },
+    {
+        "chatId": 3,
+        "companionId": 6,
+        "chatName": "Заказчики",
+        "fullStatus": "unread",
+        "messages": [
+            {
+                "who": "iam",
+                "message": "Ало!",
+                "status": "unread",
+                "time": "12:30"
+            },
+            {
+                "who": "iam",
+                "message": "Товар сделаю, Вася",
+                "status": "unread",
+                "time": "12:35"
+            }
+        ]
+    },
+    {
+        "chatId": 4,
+        "companionId": 10,
+        "chatName": "Заказчики",
+        "fullStatus": "read",
+        "messages": [
+            {
+                "who": "user",
+                "message": "Прочитал, молодец",
+                "status": "read",
+                "time": "12:30"
+            }
+        ]
+    },
+    {
+        "chatId": 5,
+        "companionId": 9,
+        "chatName": "Коллеги",
+        "fullStatus": "unread",
+        "messages": [
+            {
+                "who": "iam",
+                "message": "Хаю, хай",
+                "status": "read",
+                "time": "12:30"
+            },
+            {
+                "who": "user",
+                "message": "Дратвуй",
+                "status": "unread",
+                "time": "13:30"
+            }
+        ]
+    },
+    {
+        "chatId": 6,
+        "companionId": 4,
+        "chatName": "Крутыши",
+        "fullStatus": "read",
+        "messages": [
+            {
+                "who": "iam",
+                "message": "Ой, мама, что эта?",
+                "status": "read",
+                "time": "18:30"
+            }
+        ]
+    }
+]

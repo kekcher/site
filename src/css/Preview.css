@@ -1,0 +1,135 @@
+/*flex+column*/
+.preview_user_container,
+.preview_user_nickname_box,
+.preview_user_sign_box,
+.preview_user_count {
+  display: flex;
+  flex-direction: column;
+}
+
+/*font 12*/
+.preview_user_role,
+.idea_sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/*font 15*/
+.preview_user_nickname,
+.count,
+.count_sign {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.preview_user_container {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  align-items: center;
+  width: var(--max-width);
+  height: 100vh;
+  border-end-end-radius: 15px;
+  border-end-start-radius: 15px;
+  background-size: cover;
+  animation: open 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.preview_user_avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 196px;
+  height: 196px;
+  border: var(--border2) white;
+  margin-top: 40px;
+}
+
+.avatar_picture {
+  width: var(--max-width);
+  height: 100%;
+  border-radius: 50%;
+}
+
+.preview_user_nickname_box {
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  min-width: 180px;
+  max-width: fit-content;
+  height: 62px;
+  background-color: white;
+  border-radius: 29px;
+  margin-top: 9px;
+}
+
+.preview_user_nickname {
+  color: black;
+}
+
+.preview_user_role {
+  color: var(--color_dark_gray);
+}
+
+.preview_user_sign_box {
+  background-color: white;
+  border-radius: 29px;
+  overflow: hidden;
+  width: 80%;
+  max-height: 217px;
+  min-height: fit-content;
+  margin-top: 20px;
+}
+
+.preview_user_count_container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 23px;
+}
+
+.preview_user_count {
+  align-items: center;
+}
+
+.count {
+  color: black;
+}
+
+.count_sign {
+  color: var(--color_dark_gray);
+}
+
+.idea_sign {
+  margin: 29px 16px 31px 16px;
+}
+
+.idea_sign::before {
+  content: 'Идея: ';
+  color: black;
+}
+
+.rowupp {
+  position: absolute;
+  bottom: 10%;
+  font-size: 30px;
+  color: white;
+}
+
+@keyframes open {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

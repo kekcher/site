@@ -1,0 +1,65 @@
+[
+    {
+        "commentId": 1,
+        "authorCommentId": 2,
+        "text": "Ну тут как бы и не поспорить",
+        "likes": [1,4,5,6],
+        "replies":[2,3,4],
+        "time": "",
+        "isReply": false
+    },
+    {
+        "commentId": 2,
+        "authorCommentId": 4,
+        "text": "Сильно сказано",
+        "likes": [1,4],
+        "replies":[],
+        "time": "",
+        "isReply": true
+    },
+    {
+        "commentId": 3,
+        "authorCommentId": 5,
+        "text": "<a style='color:var(--color_active)'>Holly_Mommy</a>, Расскажешь об этом другому",
+        "likes": [5,6],
+        "replies":[],
+        "time": "",
+        "isReply": true
+    },
+    {
+        "commentId": 4,
+        "authorCommentId": 8,
+        "text": "Бывает",
+        "likes": [],
+        "replies":[],
+        "time": "",
+        "isReply": true
+    },
+    {
+        "commentId": 5,
+        "authorCommentId": 9,
+        "text": "Красиво сказал, брат",
+        "likes": [1,4,5,6,7,8,9,10],
+        "replies":[],
+        "time": "",
+        "isReply": false
+    },
+    {
+        "commentId": 6,
+        "authorCommentId": 2,
+        "text": "Ну тут как бы и не поспорить",
+        "likes": [1,4,5,6],
+        "replies":[2,3,4],
+        "time": "",
+        "isReply": false
+    },
+    {
+        "commentId": 7,
+        "authorCommentId": 2,
+        "text": "Ну тут как бы и не поспорить",
+        "likes": [1,4,5,6],
+        "replies":[2,3,4],
+        "time": "",
+        "isReply": false
+    }
+]
