@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/site/static/css/main.ad500b75.css",
+    "main.js": "/site/static/js/main.9bfd4218.js",
+    "static/media/Verdana.ttf": "/site/static/media/Verdana.06356c47838279a6fe85.ttf",
+    "static/media/default_post.png": "/site/static/media/default_post.0e4506185a59e071bc61.png",
+    "static/media/backInputColor.jpg": "/site/static/media/backInputColor.1e485d8cd28b4df7c6d7.jpg",
+    "static/media/fontello.eot?55074594": "/site/static/media/fontello.59e27ae347e37ccb1c0d.eot",
+    "static/media/fontello.ttf?55074594": "/site/static/media/fontello.7e8667f95856078f263b.ttf",
+    "static/media/fontello.svg?55074594": "/site/static/media/fontello.a86423b2e2079e92fe72.svg",
+    "static/media/fontello.woff?55074594": "/site/static/media/fontello.343e0af571ba7b5f24dd.woff",
+    "static/media/fontello.woff2?55074594": "/site/static/media/fontello.c4b0ea1ce412ec76ac5d.woff2",
+    "static/media/logoInput.svg": "/site/static/media/logoInput.4c4097b01b0f4d68ae348e159db4cad4.svg",
+    "index.html": "/site/index.html",
+    "static/media/plus.svg": "/site/static/media/plus.31c0b68195c7a702b7a97aeabd713d42.svg",
+    "static/media/arrow.svg": "/site/static/media/arrow.fc29ec73901b6f8218c91a0d69592416.svg",
+    "main.ad500b75.css.map": "/site/static/css/main.ad500b75.css.map",
+    "main.9bfd4218.js.map": "/site/static/js/main.9bfd4218.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad500b75.css",
+    "static/js/main.9bfd4218.js"
+  ]
+}
