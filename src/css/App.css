@@ -21,6 +21,10 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: var(--fontVer);
+    -webkit-overflow-scrolling:touch;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
 }
 
 .root{
