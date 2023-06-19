@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.51269d1a.css",
-    "main.js": "/site/static/js/main.17e3e944.js",
+    "main.css": "/site/static/css/main.b67e62d6.css",
+    "main.js": "/site/static/js/main.41179509.js",
     "static/media/Verdana.ttf": "/site/static/media/Verdana.06356c47838279a6fe85.ttf",
     "static/media/defaultAvatar.png": "/site/static/media/defaultAvatar.189895d1890ef18d1655.png",
     "static/media/addHistory.svg": "/site/static/media/addHistory.dec2ca1853e027092456f7273b0bdb0b.svg",
@@ -10,44 +10,16 @@
     "static/media/fontello.ttf?55074594": "/site/static/media/fontello.7e8667f95856078f263b.ttf",
     "static/media/fontello.svg?55074594": "/site/static/media/fontello.a86423b2e2079e92fe72.svg",
     "static/media/fontello.woff?55074594": "/site/static/media/fontello.343e0af571ba7b5f24dd.woff",
-    "static/media/icon1.svg": "/site/static/media/icon1.27c1531167ed0f76e838.svg",
     "static/media/fontello.woff2?55074594": "/site/static/media/fontello.c4b0ea1ce412ec76ac5d.woff2",
     "static/media/logoInput.svg": "/site/static/media/logoInput.4c4097b01b0f4d68ae348e159db4cad4.svg",
-    "static/media/icon3.svg": "/site/static/media/icon3.a8a3c4dfb433532f5d2d.svg",
-    "static/media/icon2.svg": "/site/static/media/icon2.af79541b1f08f01549f6.svg",
-    "static/media/icon11.svg": "/site/static/media/icon11.226629f233bf2e6c841d.svg",
-    "static/media/icon6.svg": "/site/static/media/icon6.5e07a37930a09af23732.svg",
-    "static/media/icon16.svg": "/site/static/media/icon16.345e065ac38d618b1eef.svg",
-    "static/media/icon13.svg": "/site/static/media/icon13.3f988b96aabf0e496602.svg",
-    "static/media/icon12.svg": "/site/static/media/icon12.cf083486e3d8d457c9f8.svg",
-    "static/media/icon17.svg": "/site/static/media/icon17.a457a26a8966ca710671.svg",
-    "static/media/icon21.svg": "/site/static/media/icon21.3ae4b7d0283ce906ac02.svg",
-    "static/media/icon27.svg": "/site/static/media/icon27.248fb290f55dac1f0083.svg",
-    "static/media/icon28.svg": "/site/static/media/icon28.b5ef67a37297f3f36a86.svg",
-    "static/media/icon25.svg": "/site/static/media/icon25.ef0c2307da6e91f9c5bb.svg",
-    "static/media/icon15.svg": "/site/static/media/icon15.3d12b293c9fe6efce2b0.svg",
-    "static/media/icon24.svg": "/site/static/media/icon24.acb42ecd5d4221e3c45e.svg",
-    "static/media/icon18.svg": "/site/static/media/icon18.2cc4db2607b8a734a7dc.svg",
-    "static/media/icon5.svg": "/site/static/media/icon5.f7143d58aa5cc82361ec.svg",
-    "static/media/icon22.svg": "/site/static/media/icon22.e5a071d996306b1d5aaf.svg",
-    "static/media/icon7.svg": "/site/static/media/icon7.a6e8e64392d70a72f24a.svg",
-    "static/media/icon4.svg": "/site/static/media/icon4.61c9ddd6604f10200c33.svg",
-    "static/media/icon19.svg": "/site/static/media/icon19.f7dcbd3529c0cc877c5a.svg",
     "index.html": "/site/index.html",
-    "static/media/icon14.svg": "/site/static/media/icon14.1529b5bd39797c6b40cf.svg",
-    "static/media/icon9.svg": "/site/static/media/icon9.4727f3dac6c700a8abd1.svg",
-    "static/media/icon10.svg": "/site/static/media/icon10.ca20c4a4fbb6d2d7862d.svg",
-    "static/media/icon23.svg": "/site/static/media/icon23.299c1df310beb80f5b35.svg",
-    "static/media/icon8.svg": "/site/static/media/icon8.f5aba8259660260df4b4.svg",
-    "static/media/icon20.svg": "/site/static/media/icon20.83d3659ec528d0dece23.svg",
     "static/media/plus.svg": "/site/static/media/plus.31c0b68195c7a702b7a97aeabd713d42.svg",
-    "static/media/icon26.svg": "/site/static/media/icon26.3a96f1aac93aeb5b548a.svg",
     "static/media/arrow.svg": "/site/static/media/arrow.fc29ec73901b6f8218c91a0d69592416.svg",
-    "main.51269d1a.css.map": "/site/static/css/main.51269d1a.css.map",
-    "main.17e3e944.js.map": "/site/static/js/main.17e3e944.js.map"
+    "main.b67e62d6.css.map": "/site/static/css/main.b67e62d6.css.map",
+    "main.41179509.js.map": "/site/static/js/main.41179509.js.map"
   },
   "entrypoints": [
-    "static/css/main.51269d1a.css",
-    "static/js/main.17e3e944.js"
+    "static/css/main.b67e62d6.css",
+    "static/js/main.41179509.js"
   ]
 }
